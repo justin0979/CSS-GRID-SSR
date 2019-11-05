@@ -14,7 +14,9 @@ const PORT = process.env.PORT || 3000;
 
 app.use(
   webpackDevMiddleware(compiler, {
-    publicPath: config.output.publicPath
+    publicPath: config.output.publicPath,
+    hot: true,
+    historyApiFallback: true
   })
 );
 app.use(webpackHotMiddleware(compiler));

@@ -15,6 +15,10 @@ export default (req, store) => {
     </Provider>
   );
 
+  // link to googleapis.com causes flash in browsers.
+  // not sure how to dynamically import fonts without browser flash
+  // when reloading.
+
   return `
   <!DOCTYPE html>
   <html lang='en'>
