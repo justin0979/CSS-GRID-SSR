@@ -1,7 +1,7 @@
 import { hot } from 'react-hot-loader/root';
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchFeatures } from 'actions';
+import { fetchFeatures } from '#actions';
 
 class Features extends React.Component {
   componentDidMount() {

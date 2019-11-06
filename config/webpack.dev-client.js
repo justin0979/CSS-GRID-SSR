@@ -14,7 +14,7 @@ module.exports = merge(baseConfig, {
   output: {
     filename: 'client-bundle.js',
     path: path.resolve(__dirname, '../public'),
-    publicPath: '/'
+    publicPath: ''
   },
   module: {
     rules: [

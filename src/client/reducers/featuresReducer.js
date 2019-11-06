@@ -1,4 +1,4 @@
-import { FETCH_FEATURES } from 'actions/types';
+import { FETCH_FEATURES } from '#actions/types';
 
 export default (state = [], action) => {
   switch (action.type) {

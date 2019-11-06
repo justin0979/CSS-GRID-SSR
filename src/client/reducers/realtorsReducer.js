@@ -1,4 +1,4 @@
-import { FETCH_REALTORS } from 'actions/types';
+import { FETCH_REALTORS } from '#actions/types';
 
 export default (state = [], action) => {
   switch (action.type) {

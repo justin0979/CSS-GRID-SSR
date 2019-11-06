@@ -1,7 +1,7 @@
 import { hot } from 'react-hot-loader/root';
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchRealtors } from 'actions';
+import { fetchRealtors } from '#actions';
 
 class Realtors extends React.Component {
   componentDidUpdate() {}

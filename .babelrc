@@ -17,19 +17,19 @@
       "module-resolver",
       {
         "alias": {
-          "config": "./config",
-          "src": "./src",
-          "client": "./src/client",
-          "tests": "./src/client/__tests__",
-          "actions": "./src/client/actions",
-          "components": "./src/client/components",
-          "pages": "./src/client/pages",
-          "reducers": "./src/client/reducers",
-          "sass": "./src/client/sass",
-          "data": "./src/data",
-          "img": "./src/img",
-          "server": "./src/server",
-          "helpers": "./src/server/helpers"
+          "#config": "./config",
+          "#src": "./src",
+          "#client": "./src/client",
+          "#tests": "./src/client/__tests__",
+          "#actions": "./src/client/actions",
+          "#components": "./src/client/components",
+          "#pages": "./src/client/pages",
+          "#reducers": "./src/client/reducers",
+          "#sass": "./src/client/sass",
+          "#data": "./src/data",
+          "#img": "./src/img",
+          "#server": "./src/server",
+          "#helpers": "./src/server/helpers"
         }
       }
     ]

@@ -3,8 +3,8 @@ import { renderToString } from 'react-dom/server';
 import { Provider } from 'react-redux';
 import { StaticRouter } from 'react-router-dom';
 import serialize from 'serialize-javascript';
-import App from 'client/App';
-import favicon from 'img/favicon';
+import App from '#client/App';
+import favicon from '#img/favicon';
 
 export default (req, store) => {
   const content = renderToString(
