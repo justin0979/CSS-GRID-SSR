@@ -6,7 +6,7 @@ module.exports = {
     alias: {
       'react-dom': '@hot-loader/react-dom'
     },
-    modules: ['src', 'img', 'node_modules'],
+    modules: ['src', 'client', 'server', 'img', 'data', 'node_modules'],
     extensions: [
       '.js',
       '.jsx',
