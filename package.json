@@ -10,7 +10,8 @@
     "build:client": "webpack --config config/webpack.dev-client.js --watch",
     "builddev:server": "webpack --config config/webpack.dev-server",
     "dev": "npm run builddev:server && node dist/server-bundle.js",
-    "clean": "rm -rf public/* dist/*"
+    "clean": "rm -rf public/* dist/*",
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -44,6 +45,7 @@
     "file-loader": "^4.2.0",
     "ignore-loader": "^0.1.2",
     "image-webpack-loader": "^6.0.0",
+    "jest": "^24.9.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.13.0",
     "nodemon": "^1.19.4",

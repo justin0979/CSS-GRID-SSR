@@ -20,6 +20,7 @@
           "config": "./config",
           "src": "./src",
           "client": "./src/client",
+          "tests": "./src/client/__tests__",
           "actions": "./src/client/actions",
           "components": "./src/client/components",
           "pages": "./src/client/pages",

@@ -17,7 +17,7 @@ export default (req, store) => {
 
   // link to googleapis.com causes flash in browsers.
   // not sure how to dynamically import fonts without browser flash
-  // when reloading.
+  // when reloading. Tried preload link before stylesheet link, no luck.
 
   return `
   <!DOCTYPE html>
