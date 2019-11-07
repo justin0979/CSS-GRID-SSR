@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = merge(baseConfig, {
   name: 'client',
   target: 'web',
+  mode: 'development',
   entry: [
     'react-hot-loader/patch',
     'webpack-hot-middleware/client?reload=true',

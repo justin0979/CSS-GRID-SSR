@@ -12,6 +12,7 @@
   "plugins": [
     "@babel/transform-runtime",
     "@babel/proposal-class-properties",
+    "@babel/syntax-dynamic-import",
     "react-hot-loader/babel",
     [
       "module-resolver",

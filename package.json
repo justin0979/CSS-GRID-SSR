@@ -9,7 +9,7 @@
     "build:server": "webpack --config config/webpack.dev-server.js",
     "build:client": "webpack --config config/webpack.dev-client.js",
     "dev": "npm run build:server && node dist/server-bundle.js",
-    "clean": "rm -rf public/* dist/*",
+    "clean": "rm -rf public dist",
     "test": "jest --watch"
   },
   "keywords": [],
@@ -33,6 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",

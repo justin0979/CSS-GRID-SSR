@@ -1,7 +1,6 @@
 const wepback = require('webpack');
 
 module.exports = {
-  mode: 'development',
   resolve: {
     alias: {
       'react-dom': '@hot-loader/react-dom'
@@ -20,7 +19,7 @@ module.exports = {
       '.json'
     ]
   },
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   module: {
     rules: [
       {

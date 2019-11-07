@@ -8,7 +8,7 @@ import StoryContent from '#components/StoryContent';
 import Homes from '#components/Homes';
 import Gallery from '#components/Gallery';
 import Footer from '#components/Footer';
-import { fetchFeatures, fetchRealtors } from '#actions';
+import { fetchFeatures, fetchRealtors, fetchHomes } from '#actions';
 
 const HomePage = () => {
   return (
@@ -29,6 +29,7 @@ const HomePage = () => {
 const loadData = store => {
   store.dispatch(fetchFeatures());
   store.dispatch(fetchRealtors());
+  store.dispatch(fetchHomes());
 };
 
 export default {
