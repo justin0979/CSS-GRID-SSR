@@ -1,17 +1,19 @@
-import axios from 'axios';
+import axios from "axios";
 import {
   FETCH_USERS,
   FETCH_FEATURES,
   FETCH_REALTORS,
-  FETCH_HOMES
-} from '#actions/types';
-import featuresData from '#data/featuresData';
-import realtorsData from '#data/realtorsData';
-import homesData from '#data/homesData';
-import { INCREMENT, DECREMENT } from '#actions/types';
+  FETCH_HOMES,
+  FETCH_GALLERY
+} from "#actions/types";
+import featuresData from "#data/featuresData";
+import realtorsData from "#data/realtorsData";
+import homesData from "#data/homesData";
+import galleryData from "#data/galleryData";
+import { INCREMENT, DECREMENT } from "#actions/types";
 
 export const fetchUsers = () => async dispatch => {
-  const res = await axios.get('http://react-ssr-api.herokuapp.com/users');
+  const res = await axios.get("http://react-ssr-api.herokuapp.com/users");
 
   dispatch({
     type: FETCH_USERS,
@@ -32,6 +34,11 @@ export const fetchRealtors = () => ({
 export const fetchHomes = () => ({
   type: FETCH_HOMES,
   payload: homesData
+});
+
+export const fetchGallery = () => ({
+  type: FETCH_GALLERY,
+  payload: galleryData
 });
 
 export const increment = count => ({

@@ -1,4 +1,4 @@
-import sprite from '#img/sprite';
+import sprite from '#img/sprite.svg';
 
 export default [
   {
